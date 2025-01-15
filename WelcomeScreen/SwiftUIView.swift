@@ -7,12 +7,18 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
+struct FirstImView: View {
     var body: some View {
         Image("image").resizable().frame(width: 120, height: 120).clipShape(RoundedRectangle(cornerRadius: 35))
     }
 }
 
+struct LogImView: View {
+    var body: some View {
+        Image("Entrance").resizable().frame(width: 120, height: 120).clipShape(RoundedRectangle(cornerRadius: 35))
+    }
+}
+
 #Preview {
-    SwiftUIView()
+    FirstImView()
 }
